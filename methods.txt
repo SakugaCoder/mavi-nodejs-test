@@ -1,0 +1,37 @@
+http://localhost:3000/register
+{
+	"username": "usuario"
+}
+
+http://localhost:3000/usuarios/
+{
+	"token": ""
+}
+
+http://localhost:3000/nuevo-usuario
+
+{
+	"nombres": "Diego Fernando",
+	"apellido_paterno": "Bocanegra",
+	"apellido_materno": "Trenado",
+	"domicilio": "Queretaro",
+	"correo_electronico": "diego.bocanegra@gmail.com",
+	"token": ""
+}
+
+http://localhost:3000/actualizar-usuario
+{
+	"nombres": "Diego Fernando",
+	"apellido_paterno": "Bocanegra",
+	"apellido_materno": "Trenado",
+	"domicilio": "Queretaro",
+	"correo_electronico": "diego.bocanegra@gmail.com",
+	"_id": "6270260d8be77b9694954088",
+	"token": ""
+}
+
+http://localhost:3000/eliminar-usuario
+{
+	"_id": "627025988be77b9694954085",
+	"token": ""
+}
